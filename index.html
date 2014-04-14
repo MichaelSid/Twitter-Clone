@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>Twitter clone</title>
+	  <link rel="stylesheet" type="text/css" href="style.css"> 
+	  <meta charset = 'utf8'>
+	</head>
+
+	<body>
+		<nav>
+			Nav does here
+		</nav>
+
+		<main class = 'clearfix'>
+			<section class='sidebar'>
+				<section class='profile'>
+					<div class='bg-photo'>
+					</div>
+
+					<div class='profile-pic'>
+						<img src='https://pbs.twimg.com/profile_images/2676875398/a38fe71446148cffdcc266dc16f98e55_normal.jpeg'>
+					</div>
+
+					<div class='account-details'>
+
+					<h3 class='name'>Michael Sidon</h3>
+					<span class='handle'>@MichaelDSidon</span>
+
+					</div>
+
+					<br clear='all'>
+
+					<div class='stats clearfix'>
+						<div class= 'stat'>
+							<span>Tweets</span>
+							<a href='/michaelsidon'>100</a>
+						</div>
+
+						<div class= 'stat'>
+							<span>Followers</span>
+							<a href='/followers'>24</a>
+						</div>
+
+						<div class= 'stat'>
+							<span>Tweets</span>
+							<a href='/following'>239</a>
+						</div>
+
+					</div>
+
+					<form class = 'clearfix'>
+						<textarea placeholder= 'Compose New Tweet'></textarea>
+						<div class='actions'>
+							<span class='char_count'>140</span>
+							<button>Tweet</button>
+							<br clear='all'>
+						</div>
+					</form>
+				</section>
+			</section>
+			<section class ='timeline'>
+				<div class='tweets'>
+					<div class='tweet'>
+						Tweet tweet
+					</div>
+					<div class='tweet'>
+						Tweet tweet
+					</div>
+					<div class='tweet'>
+						Tweet twit
+					</div>
+					<div class='tweet'>
+						Tweet twat?
+					</div>
+				</div>
+
+				<div class='loader'>
+					<img src="http://jimpunk.net/Loading/wp-content/uploads/loading18.gif">
+				</div>
+
+			</section>
+
+		</main>
+		<script src='http://code.jquery.com/jquery-2.1.0.min.js'></script>
+		<script src='tweet_form.js'></script>
+	</body>
+
+</html>
